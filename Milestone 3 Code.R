@@ -1,0 +1,6 @@
+twitchdata_update <- read_csv("twitchdata-update.csv")
+View(twitchdata_update)
+hist(twitchdata_update$`Average viewers`, main = "Distribution of Average Viewers per Twitch Channel", xlab = "Average Viewers", xlim = c(0, 50000), ylab = "Number Of Channels"  )
+hist(twitchdata_update$`Watch time(Minutes)`, main = "Histogram of Total Watch Time Across Twitch Channels", xlab = "Total Watch Time per Streamer (Minutes)", xlim = c(0, 1e9), ylab = "Number of Streamers"  )
+barplot(table(twitchdata_update$Mature), main = "Number of Mature vs Non-Mature Streamers", xlab = "Mature Status", ylab = "Number of Streamers"  )
+barplot(table(twitchdata_update$Partnered), main = "Number of Partnered vs Non-Partnered Streamers", xlab = "Partnered Status", ylab = "Number of Streamers"  )
