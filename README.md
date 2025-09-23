@@ -1,0 +1,1 @@
+This is a histogram of the distribution of the average viewers per channel. The distribution is heavily skewed right so I had to zoom in and limit some of the data. Most streamers have low average viewers, while a small number of channels reach extremely high averages.
