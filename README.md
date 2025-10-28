@@ -7,3 +7,6 @@
 #The mean number of average viewers (4,781) is noticeably higher than the median (2,425). This again suggests right-skewness, where a few large channels with thousands of viewers raise the mean. The median gives a better sense of a “typical” streamer’s viewership.
 
 #The standard deviation (8,453.69) is almost double the mean, showing that viewership numbers are very spread out. There’s a big difference between small and popular streamers. This high variation lines up with what we saw in the histogram from Milestone 3, where most values were clustered toward the low end with a long tail on the right.
+
+#Before removing the outliers, the correlation between Average Viewers and Watch Time (Minutes) was 0.48, showing a moderate positive relationship. There were two really big outliers on the far right that stretched out the plot and made it harder to see the main pattern in the data.
+After taking those outliers out, the new correlation went up to 0.65, which shows a moderately strong positive relationship. This means that as the average number of viewers increases, the total watch time also tends to go up. Removing those two extreme points made the scatterplot look more clear and gave a better picture of how the two variables are actually related for most streamers.
